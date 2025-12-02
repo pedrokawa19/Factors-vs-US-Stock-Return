@@ -1,0 +1,19 @@
+# Pulling from website
+    git pull origin main 
+    ### pulls whawtever is on the website
+
+# Sometimes it'll say stash ur code if u have some uncommited changes
+    git stash           then run git pull origin main
+
+# You have made changes and want to push it to the website
+
+    git add [filepath]
+    git commit -m "Message"
+    git push origin main
+
+# What changes are different on my computer than on the github.commit
+    git status --porcelain
+
+
+# Add, Commit, Push all in one
+    git add (file) && git commit -m "Message" && git push origin main

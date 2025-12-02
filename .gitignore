@@ -1,0 +1,142 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# IDE
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/c_cpp_properties.json
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files (financial data can be large and should be regenerated)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+data/
+datasets/
+raw_data/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Financial data specific
+historical_data/
+stock_data/
+market_data/
+*.fin
+*.dat
+
+# Model files (can be regenerated)
+*.model
+*.joblib
+models/
+
+# Plots and figures (can be regenerated)
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# Documentation build
+_build/
+docs/_build/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environments
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep only the main notebook
+# All other files will be ignored except:
+!Regression.ipynb
+!README.md
+!requirements.txt
+!deliverables.txt
+!.gitignore

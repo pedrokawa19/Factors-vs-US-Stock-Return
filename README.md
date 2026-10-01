@@ -24,7 +24,7 @@ This project analyzes the relationship between momentum, volatility, and volume 
 4. **Statistical Modeling**: Linear and non-linear regression analysis
 5. **Model Validation**: Cross-validation and out-of-sample testing
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Python 3.x**
 - **Data Processing**: pandas, numpy
@@ -49,7 +49,7 @@ This project uses Git for version control and supports collaboration between tea
 - **GitHub**: Central repository for code sharing
 - **VS Code**: Local development environment
 
-## 🔍 Key References
+## Key References
 
 - Fama-French factor models
 - Momentum strategies in equity markets
